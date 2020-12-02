@@ -25,7 +25,6 @@ html{
 .header{
   width: 100%;
   height: 60vh;
-  /* padding: 4.3rem 3.8rem; */
 }
 
 .logo img{
@@ -90,7 +89,6 @@ html{
 }
 
 .social-media{
-  /* position: absolute; */
   bottom: 3rem;
   width: 100%;
   display: flex;
@@ -118,12 +116,6 @@ html{
     background:  #674baf url(images/bg-desktop.svg) no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100vh;
-  }
-
-  .header{
-    /* height: 48vh; */
-    /* margin-bottom: 12rem; */
   }
 
   .logo img{
@@ -159,11 +151,9 @@ html{
     background-size: contain;
     padding-bottom: 2rem;
     display: grid;
-    /* align-items: center; */
     position: relative;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(8, 12rem);
-    /* grid-row-gap: 1rem; */
     grid-column-gap: 3rem;
   }
 
@@ -180,30 +170,25 @@ html{
   }
 
   .banner-img{
-    width: /*82.27%*/56rem;
-    height:/*72%*/ 43rem;
+    width: 56rem;
+    height: 43rem;
     margin: 0;
     position: relative;
-    /* left: 3.5rem; */
     top: 3rem;
   }
   
   .banner-img img{
     grid-row: 2;
     width: 100%;
-    height: 100%/*44rem*/;
-    /* margin-top: 4.2rem; */
+    height: 100%;
     max-width: 60rem;
     position: absolute;
-    /* top: -4rem; */
   }
 
   .banner{
     position: absolute;
-    /* right: 8rem; */
     grid-column: 2;
     grid-row: 2/4;
-    /* left: -9rem; */
     align-items: flex-start;
     max-width: 54rem;
     text-align: initial;
