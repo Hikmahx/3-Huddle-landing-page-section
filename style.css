@@ -213,6 +213,12 @@ html{
     font-size: 1.6rem;
   }
 
+  .banner button:hover{
+    cursor: pointer;
+    color: #fff;
+    background: #e882e8;
+  }
+
   .social-media{
     grid-column: 2;
     grid-row: 6;
@@ -224,5 +230,10 @@ html{
 
   .social-media i{
     margin: 0.8rem;
+  }
+
+  .social-media i:hover{
+    color: #f953c2;
+    border: 0.1rem solid #f953c2;
   }
 }
