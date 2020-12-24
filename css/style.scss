@@ -15,7 +15,7 @@ html{
 }
 
 .landing{
-  background:  #674baf url(images/bg-mobile.svg) no-repeat;
+  background:  #674baf url(../images/bg-mobile.svg) no-repeat;
   background-size: 100% 66vh;
   width: 100%;
   overflow: hidden;
@@ -114,7 +114,7 @@ html{
 /* MEDIA QUERIES FOR TABLET AND DESKTOP */
 @media(min-width: 599px){
   .landing{
-    background:  #674baf url(images/bg-desktop.svg) no-repeat;
+    background:  #674baf url(../images/bg-desktop.svg) no-repeat;
     background-size: cover;
     width: 100%;
   }
@@ -169,7 +169,7 @@ html{
     display: grid;
     position: relative;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(8, 12.5%);
+    grid-template-rows:  12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
     grid-column-gap: 3rem;
   }
 

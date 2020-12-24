@@ -1,0 +1,330 @@
+/* MOBILE FIRST */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+.landing {
+  background: #674baf url(../images/bg-mobile.svg) no-repeat;
+  background-size: 100% 66vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 60vh;
+}
+
+.logo img {
+  width: 12.8rem;
+  margin: 3.2rem 3.4rem;
+}
+
+.banner-img {
+  width: 30rem;
+  height: 33rem;
+  margin: auto;
+  position: relative;
+}
+
+.banner-img img {
+  width: 100%;
+  height: 21.5rem;
+  margin-top: 2.4rem;
+  max-width: 42rem;
+  position: absolute;
+  top: 0rem;
+}
+
+.banner {
+  max-width: 50rem;
+  padding: 6.2rem 3rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: auto;
+}
+
+.banner h1 {
+  width: 90%;
+  font-size: 2.4rem;
+  max-width: 32.6rem;
+  text-transform: capitalize;
+  margin-bottom: 1.2rem;
+  line-height: 3.7rem;
+  font-weight: 600;
+}
+
+.banner p {
+  width: 96%;
+  font-size: 1.6rem;
+  font-family: 'Open Sans';
+  font-weight: 200;
+  padding-bottom: 2.2rem;
+  line-height: 2.4rem;
+}
+
+.banner button {
+  font-weight: 400;
+  font-weight: 1.3rem;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  width: 20rem;
+  height: 4rem;
+  background: #fff;
+  border-radius: 2.5rem;
+  color: #674baf;
+  -webkit-box-shadow: 0rem 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0rem 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.social-media {
+  bottom: 3rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 4rem;
+}
+
+.social-media i {
+  font-size: 1.2rem;
+  width: 2.8rem;
+  height: 2.8rem;
+  color: #fff;
+  border: #fff solid 0.1rem;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* MEDIA QUERIES FOR TABLET AND DESKTOP */
+@media (min-width: 599px) {
+  .landing {
+    background: #674baf url(../images/bg-desktop.svg) no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+  .logo img {
+    width: 16rem;
+    margin: 4rem;
+    margin-left: 8rem;
+  }
+  .banner-img {
+    width: 32rem;
+    height: 22rem;
+    margin-top: -6rem;
+  }
+  .banner-img img {
+    width: 100%;
+    height: 100%;
+  }
+  .banner {
+    padding: 2rem 3rem;
+  }
+  .social-media {
+    width: auto;
+    margin: 2rem;
+  }
+}
+
+@media (min-height: 805px) and (max-width: 1198px) {
+  .landing {
+    height: 100vh;
+  }
+  .header {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .banner-img {
+    margin-top: 6rem;
+    width: 42rem;
+    height: 37rem;
+  }
+}
+
+@media (min-width: 1023px) {
+  .landing {
+    height: 100vh;
+    padding-bottom: 2rem;
+    display: -ms-grid;
+    display: grid;
+    position: relative;
+    -ms-grid-columns: 50% 50%;
+        grid-template-columns: 50% 50%;
+    -ms-grid-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+        grid-template-rows: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    grid-column-gap: 3rem;
+  }
+  .header {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+  }
+  .logo img {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    -ms-grid-row: 2;
+    grid-row: 2;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .banner-img {
+    width: 56rem;
+    height: 38.5rem;
+    margin: 6rem;
+    position: relative;
+    top: 3rem;
+  }
+  .banner-img img {
+    -ms-grid-row: 3;
+    grid-row: 3;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    max-width: 50rem;
+    position: absolute;
+  }
+  .banner {
+    position: absolute;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 3;
+    grid-row: 3;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    max-width: 54rem;
+    text-align: initial;
+    margin-top: 4rem;
+    padding: 3rem 4rem;
+  }
+  .banner h1 {
+    font-size: 4rem;
+    max-width: 50rem;
+    line-height: 6rem;
+    margin-bottom: 2rem;
+  }
+  .banner p {
+    font-size: 1.8rem;
+    width: 100%;
+    max-width: 52rem;
+    line-height: 2.7rem;
+  }
+  .banner button {
+    height: 5.6rem;
+    border-radius: 3.3rem;
+    font-size: 1.8rem;
+  }
+  .banner button:hover {
+    cursor: pointer;
+    color: #fff;
+    background: #e882e8;
+  }
+  .social-media {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 8;
+    grid-row: 8;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    max-width: 54rem;
+    margin: 0rem;
+    margin-right: 6rem;
+  }
+  .social-media i {
+    margin: 0.8rem;
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+  }
+  .social-media i:hover {
+    color: #f953c2;
+    border: 0.1rem solid #f953c2;
+  }
+}
+
+@media (min-width: 1200px) {
+  .landing {
+    background-size: contain;
+  }
+  .banner-img {
+    margin: -2rem 6rem;
+    width: 62rem;
+    height: 41.5rem;
+  }
+  .banner {
+    padding: 3rem 1rem;
+  }
+  .banner-img img {
+    max-width: 57rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .landing {
+    -ms-grid-columns: 55% 45%;
+        grid-template-columns: 55% 45%;
+    background-size: cover;
+  }
+  .header {
+    margin-left: 7.3rem;
+    margin-top: 7rem;
+  }
+  .logo img {
+    margin: 4rem 0 3.8rem 1.9rem;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+  }
+  .banner-img {
+    margin: 0;
+  }
+  .banner-img img {
+    width: 71rem;
+    height: 50.4rem;
+    max-width: 90rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
