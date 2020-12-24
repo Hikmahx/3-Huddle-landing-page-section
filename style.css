@@ -16,9 +16,9 @@ html{
 
 .landing{
   background:  #674baf url(images/bg-mobile.svg) no-repeat;
-  background-size: 100% 60vh;
+  background-size: 100% 66vh;
   width: 100%;
-  height: 130vh;
+  /* height: 130vh; */
   overflow: hidden;
 }
 
@@ -28,8 +28,10 @@ html{
 }
 
 .logo img{
-  width: 10rem;
-  margin: 2rem 3rem;
+  /* width: 10rem;
+  margin: 2rem 3rem; */
+  width: 12.8rem;
+  margin: 3.2rem 3.4rem;
 }
 
 .banner-img{
@@ -41,8 +43,8 @@ html{
 
 .banner-img img{
   width: 100%;
-  height: 19rem;
-  margin-top: 4.2rem;
+  height: 21.5rem;
+  margin-top: 2.4rem;
   max-width: 42rem;
   position: absolute;
   top: 0rem;
@@ -50,7 +52,7 @@ html{
 
 .banner{
   max-width: 50rem;
-  padding: 3rem;
+  padding: 6.2rem 3rem;
   text-align: center;
   display: flex;
   align-items: center;
@@ -60,32 +62,35 @@ html{
 
 .banner h1{
   width: 90%;
-  font-size: 2rem;
+  font-size: 2.4rem;
   max-width: 32.6rem;
   text-transform: capitalize;
   margin-bottom: 1.2rem;
-  line-height: 1.4;
-  letter-spacing: 0.1rem;
+  line-height: 3.7rem;
+  /* letter-spacing: 0.1rem; */
   font-weight: 600;
 }
 
 .banner p{
-  width: 83%;
-  font-size: 1.4rem;
+  width: 96%;
+  font-size: 1.6rem;
   font-family: 'Open Sans';
-  font-weight: 400;
-  padding-bottom: 2.4rem;
+  font-weight: 200;
+  padding-bottom: 2.2rem;
+  line-height: 2.4rem;
 }
 
 .banner button{
   font-weight: 400;
+  font-weight: 1.3rem;
+  font-family: 'Poppins', sans-serif;
   border: none;
-  width: 18rem;
+  width: 20rem;
   height: 4rem;
   background: #fff;
   border-radius: 2.5rem;
   color: #674baf;
-  box-shadow: 0rem 0.5rem 1rem 0.1rem rgba(0, 0, 0,0.4);
+  box-shadow: 0rem 0.5rem 1rem 0 rgba(0, 0, 0,0.2);
 }
 
 .social-media{
@@ -93,16 +98,17 @@ html{
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 4rem;
 }
 
 .social-media i{
-  font-size: 1.5rem;
-  width: 3rem;
-  height: 3rem;
+  font-size: 1.2rem;
+  width: 2.8rem;
+  height: 2.8rem;
   color: #fff;
-  padding: 1rem;
+  /* padding: 1rem; */
   border: #fff solid 0.1rem;
-  margin: 0.6rem;
+  margin: 0 0.5rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
