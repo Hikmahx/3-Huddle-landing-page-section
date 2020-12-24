@@ -154,12 +154,12 @@ html{
 @media(min-width:1023px){
   .landing{
     height: 100vh;
-    /* background-size: contain; */
+    /* background-size: cover; */
     padding-bottom: 2rem;
     display: grid;
     position: relative;
     /* grid-template-columns: repeat(2, 1fr); */
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: repeat(8, 12.5%);
     /* grid-template-rows: 30% 50% 20%; */
     grid-column-gap: 3rem;
@@ -168,7 +168,6 @@ html{
   .header{
     /* height: 100%;
     margin-bottom: 12rem; */
-    margin-left: 7.3rem;
     height:fit-content;
     grid-row: 1;
     /* grid-row: 2;
@@ -178,22 +177,19 @@ html{
     /* justify-content: center;
     align-items: center; */
     height: 100vh;
-    margin-top: 7rem;
   }
 
   .logo img{
-    transform: scale(1.3);
+    transform: scale(1.2);
     grid-row: 2;
     grid-column: 1;
-    margin-left: 1.9rem;
-    margin-top: 4rem;
-    margin-bottom: 3.8rem;
+
   }
 
   .banner-img{
     width: 56rem;
-    height: 41.5rem;
-    margin: 0;
+    height: 38.5rem;
+    margin: 6rem;
     position: relative;
     top: 3rem;
   }
@@ -203,10 +199,8 @@ html{
     grid-column: 1;
     /* width: 100%;
     height: 100%; */
-    width: 71rem;
-    height: 50.4rem;
-    max-width: 90rem;
-    /* max-width: 60rem; */
+
+    max-width: 50rem;
     position: absolute;
   }
 
@@ -255,6 +249,7 @@ html{
     justify-content: flex-end;
     max-width: 54rem;
     margin: 0rem;
+    margin-right: 6rem;
     /* margin-top: -2rem;
     margin-left: -7rem; */
   }
@@ -270,4 +265,52 @@ html{
     color: #f953c2;
     border: 0.1rem solid #f953c2;
   }
+}
+
+@media(min-width: 1200px){
+  .landing{
+    background-size: contain;
+  }
+
+  .banner-img{
+    margin: -2rem 6rem;
+    width: 62rem;
+    height: 41.5rem;
+  }
+
+  .banner-img img{
+    max-width: 57rem;
+  }
+}
+
+@media(min-width: 1440px){
+  .landing{
+    grid-template-columns: 55% 45%;
+    background-size: cover;
+  }
+
+  .header{
+    margin-left: 7.3rem;
+    margin-top: 7rem;
+
+  }
+
+  .logo img{
+    margin: 4rem 0 3.8rem 1.9rem;
+    transform: scale(1.3);
+  }
+
+  .banner-img{
+    margin: 0;
+  }
+
+  .banner-img img{
+    width: 71rem;
+    height: 50.4rem;
+    max-width: 90rem;
+  }
+
+  /* .social-media{
+    justify-content: flex-end;
+  } */
 }
