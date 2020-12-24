@@ -264,7 +264,7 @@ html{
 
 @media(min-width: 1200px){
   .landing{
-    background-size: contain;
+    background-size: cover;
   }
 
   .banner-img{
@@ -285,7 +285,6 @@ html{
 @media(min-width: 1440px){
   .landing{
     grid-template-columns: 55% 45%;
-    background-size: cover;
   }
 
   .header{
