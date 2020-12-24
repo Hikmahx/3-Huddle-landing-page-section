@@ -288,7 +288,8 @@ html {
 
 @media (min-width: 1200px) {
   .landing {
-    background-size: cover;
+    background-size: 100% 100vh;
+    background-position-x: -6rem;
   }
   .banner-img {
     margin: -2rem 6rem;
