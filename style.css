@@ -146,6 +146,22 @@ html{
   }
 }
 
+@media(min-height:805px) and (max-width: 1198px) {
+  .landing{
+    height: 100vh;
+  }
+
+  .header {
+    height: fit-content;
+  }
+
+  .banner-img {
+    margin-top: 6rem;
+    width: 42rem;
+    height: 37rem;
+  }
+}
+
 @media(min-width:1023px){
   .landing{
     height: 100vh;
@@ -195,7 +211,7 @@ html{
     max-width: 54rem;
     text-align: initial;
     margin-top: 4rem;
-    padding: 3rem 1rem;
+    padding: 3rem 4rem;
   }
 
   .banner h1{
@@ -255,6 +271,10 @@ html{
     margin: -2rem 6rem;
     width: 62rem;
     height: 41.5rem;
+  }
+
+  .banner{
+    padding: 3rem 1rem;
   }
 
   .banner-img img{
